@@ -124,6 +124,11 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                            <additionalArgs>
+                                --initialize-at-run-time=io.helidon.microstream.MicrostreamService
+                            </additionalArgs>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
