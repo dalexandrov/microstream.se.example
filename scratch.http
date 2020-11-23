@@ -1,0 +1,22 @@
+# curl -X GET http://localhost:8080/
+GET http://localhost:8080/
+
+
+###
+
+# curl -X PUT http://localhost:8080/Helidon
+PUT http://localhost:8080/Helidon
+
+###
+
+# curl -X DELETE http://localhost:8080/2
+DELETE http://localhost:8080/2
+
+
+###
+
+# curl -X GET http://localhost:8080/1
+GET http://localhost:8080/1
+
+###
+
