@@ -89,6 +89,7 @@ public class MicrostreamService implements Service {
     private void addNewItem(ServerRequest request, ServerResponse response) {
         String text = request.path().param("text");
         root().items().add(text);
+        storageManager.store(root().items());
         sendResponse(response, Arrays.toString(root().items().toArray()));
     }
 
